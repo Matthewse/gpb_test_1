@@ -1,0 +1,14 @@
+.item {
+  width: 280px;
+  margin: 0 10px;
+  height: 100%;
+  width: auto;
+}
+
+.item__title {
+  margin: 0;
+}
+
+.item__text {
+  padding: 0 10px;
+}

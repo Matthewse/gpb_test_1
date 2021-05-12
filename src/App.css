@@ -1,0 +1,25 @@
+.items {
+  width: 1440px;
+  margin: 50px auto;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 100px 0;
+}
+
+.items__row {
+  display: table-row;
+}
+
+.items__cell {
+  border: 1px solid black;
+  display: table-cell;
+  width: 25%;
+}
+
+.items__cell--no-bottom-border {
+  border-bottom: none;
+}
+
+.items__cell--no-top-border {
+  border-top: none;
+}
